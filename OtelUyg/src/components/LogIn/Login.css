@@ -1,0 +1,85 @@
+/* Login.css - temizlenmiş ve taşma önlenmiş hali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;/* Scroll bar'ı engellemek için */
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form .ant-form-item-label > label {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.login-form .ant-input,
+.login-form .ant-input-password {
+  border-radius: 6px;
+  border: 1.5px solid #d9d9d9;
+  transition: all 0.3s ease;
+}
+
+.login-form .ant-input:focus,
+.login-form .ant-input-password:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.6);
+}
+
+.login-form .ant-btn-primary {
+  background: #667eea;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.login-form .ant-btn-primary:hover,
+.login-form .ant-btn-primary:focus {
+  background: #5a6cd8;
+}
+
+.login-form .ant-form-item {
+  margin-bottom: 24px;
+  margin-left: 16vh;
+}
+.form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}   
+.pushright {
+  margin-left: 16vh;
+
+}
+
+.login-text {
+  text-align: center;
+  padding-bottom: 400px;
+  margin-bottom: 0;
+}

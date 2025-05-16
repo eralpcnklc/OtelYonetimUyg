@@ -1,0 +1,69 @@
+/* AddRoom.css */
+
+.form-container-outer {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+
+.form-container-outer:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 28px;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.form-container-inner .ant-form-item {
+  margin-bottom: 18px;
+}
+
+.form-container-inner .ant-form-item-label label {
+  font-weight: 600;
+  color: #444;
+}
+
+.form-container-inner input,
+.form-container-inner .ant-input-number,
+.form-container-inner textarea {
+  border-radius: 12px;
+  padding: 8px 12px;
+  border: 1px solid #d9d9d9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container-inner input:focus,
+.form-container-inner .ant-input-number:focus,
+.form-container-inner textarea:focus {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.add-room-button {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.add-room-button .ant-btn {
+  background-color: #1890ff;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.add-room-button .ant-btn:hover {
+  background-color: #40a9ff;
+}

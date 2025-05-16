@@ -1,0 +1,20 @@
+.room-status-report {
+  padding: 20px;
+}
+
+.room-status-report .ant-card {
+  border-radius: 8px;
+}
+
+.room-status-report .ant-card-title {
+  font-size: 18px;
+}
+
+.room-status-report .ant-statistic-title {
+  font-weight: bold;
+}
+
+.room-status-report .ant-tag {
+  font-size: 14px;
+  font-weight: bold;
+}
