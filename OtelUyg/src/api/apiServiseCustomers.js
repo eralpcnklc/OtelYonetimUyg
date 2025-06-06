@@ -1,4 +1,4 @@
-const BASE_URL = "https://v1.nocodeapi.com/eralpp/google_sheets/TDLsghocBZhrVtNi?tabId=Musteriler";
+const BASE_URL = "API";
 
 // Ortak fetch fonksiyonu
 const request = async (url, method = "GET", data = null) => {
